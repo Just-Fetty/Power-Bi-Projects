@@ -1,0 +1,51 @@
+# Data Professional Survey Breakdown (Power BI)
+
+An interactive Power BI dashboard that breaks down responses from a data professional survey. It shows who took the survey, which roles they hold, what they earn, which programming languages they prefer, how hard it was to break into data, and how happy they are with their salary and work/life balance.
+
+![Dashboard preview](images/dashboard-preview.png)
+
+> Add a screenshot of your dashboard to an `images` folder and name it `dashboard-preview.png`, or change the path above.
+
+## Key Questions Answered
+
+- Where do the survey takers live?
+- What is the average age of respondents, and how many people took the survey?
+- Which job titles earn the most on average?
+- Which programming languages do data professionals prefer, and how does that vary by role?
+- How difficult was it for respondents to break into data?
+- How satisfied are they with their salary and their work/life balance?
+
+## Dashboard Visuals
+
+| Visual | Type | What it shows |
+| --- | --- | --- |
+| Count of Survey Takers | Card | Total number of respondents |
+| Average Age of Survey Takers | Card | Average age of respondents |
+| Country of Survey Takers | Treemap | Where respondents live |
+| Average Salary By Job Title | Bar chart | Average salary for each job title, sorted from highest to lowest |
+| Favorite Programming Language | Column chart | Number of respondents per language, split by job title |
+| Difficulty To Break Into Data | Donut chart | Share of respondents by how hard it was to enter the field (Very Easy to Very Difficult) |
+| Salary Happiness Rating | Gauge | Average satisfaction with salary |
+| Work/Life Happiness Rating | Gauge | Average satisfaction with work/life balance |
+
+## Data
+
+- **Source:** In Data Folder
+- **Table used:** `Data Professional Survey`
+- **Fields used:** Unique ID, Q1 (current job title), Q5 (favorite programming language), Q6 (happiness with salary and work/life balance), Q7 (difficulty breaking into data), Q10 (current age), Q11 (country), Average Salary
+
+## Tools Used
+
+- Power BI Desktop
+
+## How to Use
+
+1. Download `Data_Survey_Breakdown.pbix` from this repository.
+2. Open it in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free, Windows only).
+3. Click any bar, slice, or tile to cross-filter the other visuals.
+
+## Author
+
+**Ademilola**
+
+- Email: adenipekunademilola@gmail.com
